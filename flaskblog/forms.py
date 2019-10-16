@@ -66,6 +66,6 @@ class UpdateAccountForm(FlaskForm):
 class PostForm(FlaskForm):
     """docstring for PostForm."""
     title = StringField('Title', validators=[
-                        DataRequired(), Length(min=2, max=40)])
+                        DataRequired(), Length(min=2, max=100)])
     content = TextAreaField('Content', validators=[DataRequired()])
     submit = SubmitField('Post')
