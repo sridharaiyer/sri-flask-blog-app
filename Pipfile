@@ -11,6 +11,10 @@ flask-sqlalchemy = "*"
 flask-bcrypt = "*"
 flask-login = "*"
 pillow = "*"
+itsdangerous = "*"
+flask-mail = "*"
+python-language-server = "*"
+flask-wtf = "*"
 
 [requires]
 python_version = "3.6"
