@@ -38,4 +38,4 @@ If you did not receive this email then simply ignore this email and no changes w
     '''
 
     # mail.send(msg)
-    Thread(target=send_async_email, args=(app, msg)).start()
+    Thread(target=send_async_email, args=(current_app, msg)).start()
