@@ -1,7 +1,7 @@
 import os
 import json
 
-with open('/etc/sri-flask-blog-app-config.json') as config_file:
+with open('/etc/projects/sri-flask-blog-app-config.json') as config_file:
     config = json.load(config_file)
 
 
